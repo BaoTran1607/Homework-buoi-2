@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn sử dụng git - Các lệnh cơ bản của GIT</title>
+    <link rel="stylesheet" href="hw-01.css">
+    <link rel="shortcut icon" href="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" type="image/x-icon">
+</head>
+<body>
+    <header><br>
+
+        <h3 class="headertext"><u>Trang chủ</u> >>  <u>Bài viết</u>  >>  
+            <u>Hướng dẫn sử dụng git - Các lệnh cơ bản của GIT</u></h3>
+    <br></header>
+    <main>
+        <div class="heading"><h1>Hướng dẫn sử dụng git - Các lệnh cơ bản của GIT</h1>
+        <p class="exinf">11/ 08/ 2023 - 69 lượt xem</p>
+        <hr></div>
+        <h1 class="SHeading" id="GT">1.Giới thiệu</h1>
+        <p class="in-inf01">Khi nói đến version control system, có rất ít ứng dụng có thể vượt qua được GIT
+        về hiệu năng. GIT được phát triển bởi Linus Torvalds trong năm 2005 và giớ đây,
+        hàng triệu công ty đang sử dụng nó để làm trình quản lý phiên bản mã nguồn của các dự 
+        án của họ. Phần mềm mã nguồn mở có thể tải về cho Linux, Windows, Solaris và Mac,
+        thông tin chi tiết về GIT có thể tìm thấy tại đây: <a href="https://www.hostinger.com/tutorials/git-basics-tutorial?_gl=1*ahm0km*_ga*NjcwMTM5MTc1LjE2OTE3NDUxMDQ.*_ga_73N1QWLEMH*MTY5MTc0NTEwMy4xLjEuMTY5MTc0NTEwNC41OS4wLjA.&_ga=2.204693336.931906491.1691745104-670139175.1691745104">basics can be retrieved here</a>.
+        Trong bài hướng dẫn này, các command cơ bản của Git sẽ được cung cấp.
+
+</p><br>
+<h1 class="SHeading" id="CB">2.Bạn cần chuẩn bị gì?</h1>
+<p class="in-inf01">Trước khi bắt đầu, bạn cần chuẩn bị:</p>
+<p class="in-inf01">+ GIT được cài đặt trên hệ thống của bạn.</p>
+<br>
+<h1 class="SHeading" id="HD">3.Hướng dẫn sử dụng git - Các lệnh cơ bản của GIT</h1>
+<p class="in-inf01 bold">+ Git config</p>
+<p class="in-inf01">Một trong các lệnh được dùng nhiều nhất là <b>git config</b>, có thể được cấu hình cho cá nhân với các giá trị của emails, 
+    thuật toán cho diff, username và file format,… Ví dụ, command bên dưới có thể dùng cho email:</p>
+    <pre class="command">git config --global user.email sam@google.com</pre>
+    <p class="in-inf01 bold">+ Git init</p>
+<p class="in-inf01">Lệnh này được dùng để tạo GIT repository. Cách dùng:</p>
+    <pre class="command">git init</pre>
+  <p class="in-inf01 bold">+ Git add</p>
+<p class="in-inf01">Lệnh <b>git add</b> có thể được dùng để thêm file vào index. Ví dụ, command sau có thể thêm một file có tên temp.txt vào thư mục local vào index:</p>
+    <pre class="command">git add temp.txt</pre>
+
+    <p class="in-inf01 bold">+ Git clone</p>
+<p class="in-inf01">Lệnh <b>git clone</b> được dùng với mục đích check out. Nếu respository phụ thuộc vào server từ xa, sử dụng:</p>
+    <pre class="command">git clone alex@93.188.160.58:/path/to/repository</pre>
+<p class="in-inf01">Ngược lại, nếu một bản repository đang hoạt động tại local đã được tạo, hãy dùng:</p>
+    <pre class="command">git clone /path/to/repository</pre>    
+
+    <p class="in-inf01 bold">+ Git checkout</p>
+<p class="in-inf01">Lệnh <b>git checkout</b> có thể được dùng để tạo branched hoặc chuyển giữa chúng. Ví dụ, lệnh sau tạo một brach mới và chuyển tới nó;</p>
+    <pre class="command">command git checkout -b *branch-name*</pre>
+    <p class="in-inf01">Để chuyển từ branch này sang branch khác, hãy dùng:</p>
+    <pre class="command">git checkout *branch name*</pre>
+    <hr><br>
+
+    </main>
+    <br><br><br><br>
+
+    <footer>
+        <h1 class="FHeading">
+            Đầu mục bài viết
+        </h1>
+        <ul class="in-inf01">
+            <li><a href="#GT">Giới thiệu</a></li><br>
+            <li><a href="#CB">Bạn cần chuẩn bị gì?</a></li><br>
+            <li><a href="#HD">Hướng dẫn sử dụng git - Các lệnh cơ bản của GIT</a></li>
+        </ul>
+         <h1 class="FHeading">
+            Bài viết của tôi
+        </h1><div class="in-inf01">
+        <p>+<a href="/buoi-1/homework/hw-01-clb-lego.html" target="_blank">Thông báo lịch khai giảng Câu lạc bộ lego số 3 và số 4</a></p>
+    <p>+<a href="/buoi-1/homework/hw-03.html" target="_blank">
+           Khai giảng lớp Luyện thi chứng chỉ FE số 03 ngày 24/7/2023 </a></p></div>
+    </footer>
+</body>
+</html>
